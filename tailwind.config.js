@@ -4,8 +4,15 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './atoms/**/*.{js,ts,jsx,tsx,mdx}',
+    './molecules/**/*.{js,ts,jsx,tsx,mdx}',
+    './organisms/**/*.{js,ts,jsx,tsx,mdx}',
+    './templates/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+        'primary': ['Montserrat Alternates', 'sans-serif']
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
